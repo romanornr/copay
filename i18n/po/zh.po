@@ -372,7 +372,7 @@ msgstr "比特币网络手续费策略"
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Bitcoin Wallets"
+msgid "Viacoin Wallets"
 msgstr "比特币钱包"
 
 #: src/js/services/incomingData.js:151

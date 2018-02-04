@@ -372,7 +372,7 @@ msgstr "Polityka prowizji sieci bitcoin"
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Bitcoin Wallets"
+msgid "Viacoin Wallets"
 msgstr "Portfele Bitcoin"
 
 #: src/js/services/incomingData.js:151

@@ -372,7 +372,7 @@ msgstr "Política de Comisión de la Red Bitcoin"
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Bitcoin Wallets"
+msgid "Viacoin Wallets"
 msgstr "Billeteras Bitcoin"
 
 #: src/js/services/incomingData.js:151
