@@ -4,7 +4,7 @@
   "author": "BitPay",
   "version": "*VERSION*",
   "keywords": [
-    "bitcoin",
+    "viacoin",
     "wallet",
     "bitpay",
     "copay",
@@ -56,7 +56,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "1.2.1",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client": "6.5.0",
+    "bitcore-wallet-client": "https://github.com/viacoin/viacore-wallet-client.git",
     "bower": "^1.8.2",
     "cordova-ios": "4.5.3",
     "cordova-android": "6.4.0",
