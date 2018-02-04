@@ -368,7 +368,7 @@ msgstr "ビットコインキャッシュウォレット"
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Bitcoin Network Fee Policy"
+msgid "Viacoin Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
 #: www/views/includes/walletSelector.html:11

@@ -366,7 +366,7 @@ msgstr "Portafogli Bitcoin Cash"
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Bitcoin Network Fee Policy"
+msgid "Viacoin Network Fee Policy"
 msgstr "Criterio delle Commissioni del Bitcoin Network"
 
 #: www/views/includes/walletSelector.html:11
