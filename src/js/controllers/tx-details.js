@@ -18,12 +18,12 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
     if ($scope.wallet.coin == 'bch') {
       if (walletService.useLegacyAddress($scope.wallet)) {
-        blockexplorerUrl = 'bch-insight.bitpay.com';
+        blockexplorerUrl = 'bch-explorer.viacoin.org';
       } else {
         blockexplorerUrl = 'blockdozer.com/insight';
       }
     } else {
-      blockexplorerUrl = 'insight.bitpay.com';
+      blockexplorerUrl = 'explorer.viacoin.org';
     }
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {
