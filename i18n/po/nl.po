@@ -178,7 +178,7 @@ msgid "All Addresses"
 msgstr "Alle Adressen"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your viacoin wallet balance may not be available for immediate spending."
 msgstr "Mogelijk is niet het volledige saldo van uw bitcoin portemonnee direct beschikbaar voor uitgaven."
 
 #: www/views/tab-receive.html:25
@@ -229,7 +229,7 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "Er is een update voor deze app beschikbaar. Update a.u.b. naar de nieuwste versie voor uw veiligheid."
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
+msgid "Anyone with your backup phrase can access or spend your viacoin."
 msgstr "Iemand die uw herstel zin weet heeft toegang tot uw bitcoin en kan deze uitgeven."
 
 #: www/views/addresses.html:94
@@ -241,7 +241,7 @@ msgid "Are you being watched?"
 msgstr "Kijkt er iemand mee?"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your viacoin."
 msgstr "Kijkt er iemand mee? Iedereen die uw herstel zin weet heeft toegang tot uw bitcoin en kan het uitgeven."
 
 #: src/js/controllers/copayers.js:56
@@ -2953,7 +2953,7 @@ msgid "This app is fantastic!"
 msgstr "Deze app is fantastisch!"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
+msgid "This app stores your viacoin with cutting-edge security."
 msgstr "Deze app bewaart uw bitcoin met de nieuwste beveiliging."
 
 #: src/js/controllers/confirm.js:523
@@ -3204,7 +3204,7 @@ msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "WAARSCHUWING: NIET-VERTROUWD CERTIFICAAT"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgid "WARNING: Your extended private keys are all that is needed to access your viacoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
 msgstr "WAARSCHUWING: Uw verlengde privé sleutels zijn het enige dat nodig is om toegang tot uw bitcoin te verkrijgen. Bescherm uw privé sleutels goed en bewaar deze alleen op beveiligde apparaten. BitPay heeft geen toegang tot uw privé sleutels, u bent zelf als enige verantwoordelijk voor het bewaren van uw sleutels. Als u toegang tot de sleutels deelt met externe diensten neemt u zelf de verantwoordelijkheid voor het risico op diefstal of inbraak. Het direct hanteren van verlengde privé sleutels is enkel voor gevorderde gebruikers."
 
 #: src/js/services/onGoingProcess.js:15
@@ -3477,7 +3477,7 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "U kunt het inwisselen voor valuta's zoals de Amerikaanse Dollar, de Euro, of Ponden."
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
+msgid "You control your viacoin."
 msgstr "U heeft de controle over uw bitcoin."
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3502,11 +3502,11 @@ msgid "Your Gift Cards"
 msgstr "Uw Cadeaubonnen"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your viacoin wallet is backed up!"
 msgstr "Er is een backup gemaakt van uw bitcoin portemonnee!"
 
 #: www/views/tab-home.html:50
-msgid "Your bitcoin wallet is ready!"
+msgid "Your viacoin wallet is ready!"
 msgstr "Uw bitcoin portemonnee is gereed!"
 
 #: www/views/modals/chooseFeeLevel.html:61
