@@ -2507,7 +2507,7 @@ msgid "Search Transactions"
 msgstr "Rechercher des transactions"
 
 #: www/views/tab-send.html:18
-msgid "Search or enter bitcoin address"
+msgid "Search or enter viacoin address"
 msgstr "Recherchez ou saisissez une adresse bitcoin"
 
 #: www/views/modals/search.html:16
@@ -2692,7 +2692,7 @@ msgid "Show advanced options"
 msgstr "Afficher les options avancées"
 
 #: www/views/tab-send.html:42
-msgid "Show bitcoin address"
+msgid "Show viacoin address"
 msgstr "Afficher vos adresses bitcoin"
 
 #: www/views/tab-send.html:64

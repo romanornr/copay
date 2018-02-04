@@ -2507,7 +2507,7 @@ msgid "Search Transactions"
 msgstr "搜索交易"
 
 #: www/views/tab-send.html:18
-msgid "Search or enter bitcoin address"
+msgid "Search or enter viacoin address"
 msgstr "搜索或输入比特币地址"
 
 #: www/views/modals/search.html:16
@@ -2692,7 +2692,7 @@ msgid "Show advanced options"
 msgstr "显示高级选项"
 
 #: www/views/tab-send.html:42
-msgid "Show bitcoin address"
+msgid "Show viacoin address"
 msgstr "显示比特币地址"
 
 #: www/views/tab-send.html:64
