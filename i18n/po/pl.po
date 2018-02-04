@@ -233,8 +233,8 @@ msgid "Anyone with your backup phrase can access or spend your viacoin."
 msgstr "Każdy, kto ma Twoją kluczową frazę może uzyskać dostęp lub wydać Twoje bitcoiny."
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Szacunkowe opłaty sieci Bitcoin do przeniesienia salda portfela (normalny priorytet)"
+msgid "Approximate Viacoin network fee to transfer wallet's balance (with normal priority)"
+msgstr "Szacunkowe opłaty sieci Viacoin do przeniesienia salda portfela (normalny priorytet)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -354,14 +354,14 @@ msgstr "Karty BitPay Visa&reg;"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
+msgid "Viacoin Address"
 msgstr "Adres bitcoin"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Bitcoin Cash Wallets"
-msgstr "Płatność Bitcoin Cash"
+msgid "Viacoin Cash Wallets"
+msgstr "Płatność Viacoin Cash"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
@@ -373,27 +373,27 @@ msgstr "Polityka prowizji sieci bitcoin"
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
 msgid "Viacoin Wallets"
-msgstr "Portfele Bitcoin"
+msgstr "Portfele Viacoin"
 
 #: src/js/services/incomingData.js:151
-msgid "Bitcoin cash Payment"
-msgstr "Płatność Bitcoin Cash"
+msgid "Viacoin cash Payment"
+msgstr "Płatność Viacoin Cash"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin jest walutą."
+msgid "Viacoin is a currency."
+msgstr "Viacoin jest walutą."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoin jest inny &ndash; nie może być bezpiecznie przechowywany w banku lub usłudze internetowej."
+msgid "Viacoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "Viacoin jest inny &ndash; nie może być bezpiecznie przechowywany w banku lub usłudze internetowej."
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "Bitcoin jest bezpieczny, <br>cyfrowe pieniądze."
+msgid "Viacoin is secure,<br>digital money."
+msgstr "Viacoin jest bezpieczny, <br>cyfrowe pieniądze."
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Transakcje Bitcoin obejmują prowizję pobieraną przez górników w sieci."
+msgid "Viacoin transactions include a fee collected by miners on the network."
+msgstr "Transakcje Viacoin obejmują prowizję pobieraną przez górników w sieci."
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -422,11 +422,11 @@ msgid "Buy"
 msgstr "Kup"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Viacoin"
 msgstr "Kup &amp; sprzedaj bitcoiny"
 
 #: www/views/tab-send.html:40
-msgid "Buy Bitcoin"
+msgid "Buy Viacoin"
 msgstr "Kup bitcoiny"
 
 #: www/views/mercadoLibre.html:22
@@ -439,7 +439,7 @@ msgid "Buy from"
 msgstr "Kup od"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Viacoin..."
 msgstr "Zakup bitcoinów..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -621,8 +621,8 @@ msgid "Contribute Translations"
 msgstr "Wkład do tłumaczenia"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Bitcoin Cash using new version numbers addresses"
-msgstr "Copay obsługuje tylko Bitcoin gotówki za pomocą nowej wersji numery adresy"
+msgid "Copay only supports Viacoin Cash using new version numbers addresses"
+msgstr "Copay obsługuje tylko Viacoin gotówki za pomocą nowej wersji numery adresy"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -1394,8 +1394,8 @@ msgstr "Portfel sprzętowy"
 
 #: src/js/controllers/create.js:178
 #: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr "Portfele sprzętowe nie są jeszcze obsługiwane z Bitcoin gotówki"
+msgid "Hardware wallets are not yet supported with Viacoin Cash"
+msgstr "Portfele sprzętowe nie są jeszcze obsługiwane z Viacoin gotówki"
 
 #: www/views/modals/mercadolibre-card-details.html:69
 #: www/views/tab-settings.html:20
@@ -1907,8 +1907,8 @@ msgid "No wallets available to receive funds"
 msgstr "Brak portfeli do otrzymania środków"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Bitcoin Cash support"
-msgstr "Brak portfeli wspierających Bitcoin Cash"
+msgid "No wallets eligible for Viacoin Cash support"
+msgstr "Brak portfeli wspierających Viacoin Cash"
 
 #: src/js/controllers/preferencesCash.js:58
 msgid "Non BIP44 wallet"
@@ -2153,8 +2153,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Wypłata zaakceptowana. Będzie nadana przez Glidera. W przypadku wystąpienia problemu, może być usunięta 6 godzin po utworzeniu."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Bitcoin Cash address format:"
-msgstr "Adres płatności został przetłumaczony na nowy format adresów Bitcoin Cash:"
+msgid "Payment address was translated to new Viacoin Cash address format:"
+msgstr "Adres płatności został przetłumaczony na nowy format adresów Viacoin Cash:"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2539,7 +2539,7 @@ msgid "Self-signed Certificate"
 msgstr "Certyfikat z podpisem własnym"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Viacoin..."
 msgstr "Sprzedawanie bitcoinów..."
 
 #: www/views/feedback/send.html:13
@@ -2740,7 +2740,7 @@ msgid "Slide to send"
 msgstr "Przesuń, aby wysłać"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Bitcoin Cash support. You can try to access BCH funds from these wallets using the"
+msgid "Some of your wallets are not eligible for Viacoin Cash support. You can try to access BCH funds from these wallets using the"
 msgstr ""
 
 #: src/js/controllers/create.js:86
@@ -2761,7 +2761,7 @@ msgid "Spending Password needed"
 msgstr "Wymagane hasło wypłat"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Viacoin network fees"
 msgstr ""
 
 #: www/views/tab-send.html:33
@@ -2971,7 +2971,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Ta kluczowa fraza został utworzona przy użyciu hasła. Aby odzyskać portfel potrzebna jest kluczowa fraza i hasło."
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Viacoin network fees. Spending these funds will need a Viacoin network fee cost comparable to the funds itself."
 msgstr ""
 
 #: www/views/tx-details.html:87

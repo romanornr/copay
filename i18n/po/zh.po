@@ -233,7 +233,7 @@ msgid "Anyone with your backup phrase can access or spend your viacoin."
 msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Viacoin network fee to transfer wallet's balance (with normal priority)"
 msgstr "转移钱包余额大约需要的比特币网络费用（正常优先级）"
 
 #: www/views/backupWarning.html:10
@@ -354,13 +354,13 @@ msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
+msgid "Viacoin Address"
 msgstr "比特币地址"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Bitcoin Cash Wallets"
+msgid "Viacoin Cash Wallets"
 msgstr "比特币现金钱包"
 
 #: www/views/modals/chooseFeeLevel.html:4
@@ -376,23 +376,23 @@ msgid "Viacoin Wallets"
 msgstr "比特币钱包"
 
 #: src/js/services/incomingData.js:151
-msgid "Bitcoin cash Payment"
+msgid "Viacoin cash Payment"
 msgstr "比特币现金支付"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
+msgid "Viacoin is a currency."
 msgstr "比特币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "Viacoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
+msgid "Viacoin is secure,<br>digital money."
 msgstr "比特币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Viacoin transactions include a fee collected by miners on the network."
 msgstr "比特币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
@@ -422,11 +422,11 @@ msgid "Buy"
 msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Viacoin"
 msgstr "购买或出售比特币"
 
 #: www/views/tab-send.html:40
-msgid "Buy Bitcoin"
+msgid "Buy Viacoin"
 msgstr "购买比特币"
 
 #: www/views/mercadoLibre.html:22
@@ -439,7 +439,7 @@ msgid "Buy from"
 msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Viacoin..."
 msgstr "正在发送 比特币..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -621,7 +621,7 @@ msgid "Contribute Translations"
 msgstr "参与翻译"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Bitcoin Cash using new version numbers addresses"
+msgid "Copay only supports Viacoin Cash using new version numbers addresses"
 msgstr "Copay只支持新版本的比特币现金地址"
 
 #: src/js/services/bwcError.js:62
@@ -1394,7 +1394,7 @@ msgstr "硬件钱包"
 
 #: src/js/controllers/create.js:178
 #: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
+msgid "Hardware wallets are not yet supported with Viacoin Cash"
 msgstr "比特币现金钱包暂时不支持硬件钱包"
 
 #: www/views/modals/mercadolibre-card-details.html:69
@@ -1907,7 +1907,7 @@ msgid "No wallets available to receive funds"
 msgstr "没有可用于接收资金的钱包"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Bitcoin Cash support"
+msgid "No wallets eligible for Viacoin Cash support"
 msgstr "没有錢包合乎支持小比特幣資格"
 
 #: src/js/controllers/preferencesCash.js:58
@@ -2153,7 +2153,7 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Bitcoin Cash address format:"
+msgid "Payment address was translated to new Viacoin Cash address format:"
 msgstr "付款地址转化为新的小比特幣地址格式"
 
 #: www/views/modals/txp-details.html:107
@@ -2539,7 +2539,7 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Viacoin..."
 msgstr "出售比特币......"
 
 #: www/views/feedback/send.html:13
@@ -2740,7 +2740,7 @@ msgid "Slide to send"
 msgstr "在此點擊滑動以發送"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Bitcoin Cash support. You can try to access BCH funds from these wallets using the"
+msgid "Some of your wallets are not eligible for Viacoin Cash support. You can try to access BCH funds from these wallets using the"
 msgstr "你有些錢包不合資格得到小比特幣的支持可嘗試連結這些錢包至BCH基金"
 
 #: src/js/controllers/create.js:86
@@ -2761,7 +2761,7 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Viacoin network fees"
 msgstr "这笔交易将需要非常高的比特币网络手续费"
 
 #: www/views/tab-send.html:33
@@ -2971,7 +2971,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Viacoin network fees. Spending these funds will need a Viacoin network fee cost comparable to the funds itself."
 msgstr "相对于当前比特币网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:87
