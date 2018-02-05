@@ -179,11 +179,11 @@ msgstr "Alle Adressen"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your viacoin wallet balance may not be available for immediate spending."
-msgstr "Mogelijk is niet het volledige saldo van uw bitcoin portemonnee direct beschikbaar voor uitgaven."
+msgstr "Mogelijk is niet het volledige saldo van uw viacoin portemonnee direct beschikbaar voor uitgaven."
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "Alle ondertekenende apparaten moeten worden toegevoegd aan deze meervoudige-ondertekening portemonnee voordat bitcoin adressen kunnen worden aangemaakt."
+msgid "All signing devices must be added to this multisig wallet before viacoin addresses can be created."
+msgstr "Alle ondertekenende apparaten moeten worden toegevoegd aan deze meervoudige-ondertekening portemonnee voordat viacoin adressen kunnen worden aangemaakt."
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -230,7 +230,7 @@ msgstr "Er is een update voor deze app beschikbaar. Update a.u.b. naar de nieuws
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your viacoin."
-msgstr "Iemand die uw herstel zin weet heeft toegang tot uw bitcoin en kan deze uitgeven."
+msgstr "Iemand die uw herstel zin weet heeft toegang tot uw viacoin en kan deze uitgeven."
 
 #: www/views/addresses.html:94
 msgid "Approximate Viacoin network fee to transfer wallet's balance (with normal priority)"
@@ -242,7 +242,7 @@ msgstr "Kijkt er iemand mee?"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your viacoin."
-msgstr "Kijkt er iemand mee? Iedereen die uw herstel zin weet heeft toegang tot uw bitcoin en kan het uitgeven."
+msgstr "Kijkt er iemand mee? Iedereen die uw herstel zin weet heeft toegang tot uw viacoin en kan het uitgeven."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -939,8 +939,8 @@ msgid "Duplicating wallet..."
 msgstr "Portemonnee dupliceren..."
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Elke bitcoin portemonnee kan miljarden adressen genereren vanuit uw backup bestaand uit 12 woorden. Elke keer dat u een betaling ontvangt wordt automatisch een nieuw adres gegenereerd en getoond."
+msgid "Each viacoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "Elke viacoin portemonnee kan miljarden adressen genereren vanuit uw backup bestaand uit 12 woorden. Elke keer dat u een betaling ontvangt wordt automatisch een nieuw adres gegenereerd en getoond."
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -1477,7 +1477,7 @@ msgstr "Ik begrijp het"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my viacoin can only be recovered with the backup phrase."
-msgstr "Ik begrijp dat als deze app wordt verwijderd of verplaatst naar een ander apparaat, ik mijn bitcoin alleen kan herstellen met de herstel zin."
+msgstr "Ik begrijp dat als deze app wordt verwijderd of verplaatst naar een ander apparaat, ik mijn viacoin alleen kan herstellen met de herstel zin."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1634,8 +1634,8 @@ msgid "Is this email address correct?"
 msgstr "Is dit emailadres juist?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "Het is aan te raden adressen niet te hergebruiken - dit beschermt uw privacy en beveiligd uw bitcoins tegen een hypothetische aanval door quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your viacoins secure against hypothetical attacks by quantum computers."
+msgstr "Het is aan te raden adressen niet te hergebruiken - dit beschermt uw privacy en beveiligd uw viacoins tegen een hypothetische aanval door quantum computers."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1851,7 +1851,7 @@ msgstr "Geen toegangsknop ingesteld"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no viacoin."
-msgstr "Geen backup, geen bitcoin."
+msgstr "Geen backup, geen viacoin."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1952,8 +1952,8 @@ msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the
 msgstr "Let op: als deze BCH portemonnee is gedupliceerd van een BTC portemonnee, dan delen zij de zelfde herstel zin."
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "Let op: alleen 1-1 (enkele ondertekening) portemonnees kunnen gebruikt worden voor het verkopen van bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell viacoin"
+msgstr "Let op: alleen 1-1 (enkele ondertekening) portemonnees kunnen gebruikt worden voor het verkopen van viacoin"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:54
@@ -2092,8 +2092,8 @@ msgid "Paste the backup plain text code"
 msgstr "Plak de platte tekst backup"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Betaal 0% transactiekosten om bitcoin om te zetten naar dollars."
+msgid "Pay 0% fees to turn viacoin into dollars."
+msgstr "Betaal 0% transactiekosten om viacoin om te zetten naar dollars."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2508,7 +2508,7 @@ msgstr "Doorzoek Transacties"
 
 #: www/views/tab-send.html:18
 msgid "Search or enter viacoin address"
-msgstr "Zoeken of bitcoin adres invullen"
+msgstr "Zoeken of viacoin adres invullen"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2693,7 +2693,7 @@ msgstr "Geavanceerde opties weergeven"
 
 #: www/views/tab-send.html:42
 msgid "Show viacoin address"
-msgstr "Toon bitcoin adres"
+msgstr "Toon viacoin adres"
 
 #: www/views/tab-send.html:64
 msgid "Show more"
@@ -2765,8 +2765,8 @@ msgid "Spending this balance will need significant Viacoin network fees"
 msgstr "Dit bedrag uitgeven vereist aanzienlijke transactiekosten"
 
 #: www/views/tab-send.html:33
-msgid "Start sending bitcoin"
-msgstr "Begin met het sturen van bitcoin"
+msgid "Start sending viacoin"
+msgstr "Begin met het sturen van viacoin"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2804,7 +2804,7 @@ msgstr "DEZE ACTIE IS ONOMKEERBAAR"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your money,<br>get started with viacoin."
-msgstr "Neem controle over uw geld,<br>aan de slag met bitcoin."
+msgstr "Neem controle over uw geld,<br>aan de slag met viacoin."
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -2859,16 +2859,16 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "De Ledger Chrome applicatie is niet geïnstalleerd"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "De hoeveelheid bitcoin die direct te besteden is vanuit deze portemonnee."
+msgid "The amount of viacoin immediately spendable from this wallet."
+msgstr "De hoeveelheid viacoin die direct te besteden is vanuit deze portemonnee."
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
+msgid "The amount of viacoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "De hoeveelheid viacoin opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
+msgid "The amount of viacoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "De hoeveelheid viacoin opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2922,8 +2922,8 @@ msgid "The spend proposal is not pending"
 msgstr "Het bestedingsvoorstel is niet meer in behandeling"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "De totale hoeveelheid bitcoin opgeslagen in deze portemonnee."
+msgid "The total amount of viacoin stored in this wallet."
+msgstr "De totale hoeveelheid viacoin opgeslagen in deze portemonnee."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2954,11 +2954,11 @@ msgstr "Deze app is fantastisch!"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your viacoin with cutting-edge security."
-msgstr "Deze app bewaart uw bitcoin met de nieuwste beveiliging."
+msgstr "Deze app bewaart uw viacoin met de nieuwste beveiliging."
 
 #: src/js/controllers/confirm.js:523
-msgid "This bitcoin payment request has expired."
-msgstr "Dit bitcoin betalingsverzoek is verlopen."
+msgid "This viacoin payment request has expired."
+msgstr "Dit viacoin betalingsverzoek is verlopen."
 
 #: www/views/join.html:133
 #: www/views/tab-create-personal.html:103
@@ -2998,12 +2998,12 @@ msgid "To"
 msgstr "Naar"
 
 #: www/views/tab-send.html:37
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "Om aan de slag te gaan, koop bitcoin of deel uw adres. U kunt bitcoin ontvangen van elke portemonnee of dienst."
+msgid "To get started, buy viacoin or share your address. You can receive viacoin from any wallet or service."
+msgstr "Om aan de slag te gaan, koop viacoin of deel uw adres. U kunt viacoin ontvangen van elke portemonnee of dienst."
 
 #: www/views/tab-send.html:38
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "Om aan de slag te gaan zult u een bitcoin portemonnee moeten aanmaken en wat bitcoin moeten verkrijgen."
+msgid "To get started, you'll need to create a viacoin wallet and get some viacoin."
+msgstr "Om aan de slag te gaan zult u een viacoin portemonnee moeten aanmaken en wat viacoin moeten verkrijgen."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -3094,8 +3094,8 @@ msgid "Try again in {{expires}}"
 msgstr "Probeer het nogmaals over {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Zet bitcoin om in dollars, betaal overal waar Visa<sup>&reg;</sup> wordt geaccepteerd."
+msgid "Turn viacoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "Zet viacoin om in dollars, betaal overal waar Visa<sup>&reg;</sup> wordt geaccepteerd."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3205,7 +3205,7 @@ msgstr "WAARSCHUWING: NIET-VERTROUWD CERTIFICAAT"
 
 #: www/views/preferencesPrivateKey.html:14
 msgid "WARNING: Your extended private keys are all that is needed to access your viacoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
-msgstr "WAARSCHUWING: Uw verlengde privé sleutels zijn het enige dat nodig is om toegang tot uw bitcoin te verkrijgen. Bescherm uw privé sleutels goed en bewaar deze alleen op beveiligde apparaten. BitPay heeft geen toegang tot uw privé sleutels, u bent zelf als enige verantwoordelijk voor het bewaren van uw sleutels. Als u toegang tot de sleutels deelt met externe diensten neemt u zelf de verantwoordelijkheid voor het risico op diefstal of inbraak. Het direct hanteren van verlengde privé sleutels is enkel voor gevorderde gebruikers."
+msgstr "WAARSCHUWING: Uw verlengde privé sleutels zijn het enige dat nodig is om toegang tot uw viacoin te verkrijgen. Bescherm uw privé sleutels goed en bewaar deze alleen op beveiligde apparaten. BitPay heeft geen toegang tot uw privé sleutels, u bent zelf als enige verantwoordelijk voor het bewaren van uw sleutels. Als u toegang tot de sleutels deelt met externe diensten neemt u zelf de verantwoordelijkheid voor het risico op diefstal of inbraak. Het direct hanteren van verlengde privé sleutels is enkel voor gevorderde gebruikers."
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
@@ -3457,8 +3457,8 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "U kunt een bijdrage leveren door u aan te melden bij onze Crowdin gemeenschap vertalings website. Wij kijken er naar uit om van u te horen!"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "U kunt bitcoin adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
+msgid "You can scan viacoin addresses, payment requests, paper wallets, and more."
+msgstr "U kunt viacoin adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3466,7 +3466,7 @@ msgstr "U kunt de laatste ontwikkelingen volgen en bijdragen aan deze open sourc
 
 #: www/views/onboarding/tour.html:19
 msgid "You can spend viacoin at millions of websites and stores worldwide."
-msgstr "U kunt met bitcoin betalen bij miljoenen websites en winkels over de hele wereld."
+msgstr "U kunt met viacoin betalen bij miljoenen websites en winkels over de hele wereld."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3478,7 +3478,7 @@ msgstr "U kunt het inwisselen voor valuta's zoals de Amerikaanse Dollar, de Euro
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your viacoin."
-msgstr "U heeft de controle over uw bitcoin."
+msgstr "U heeft de controle over uw viacoin."
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
@@ -3503,11 +3503,11 @@ msgstr "Uw Cadeaubonnen"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your viacoin wallet is backed up!"
-msgstr "Er is een backup gemaakt van uw bitcoin portemonnee!"
+msgstr "Er is een backup gemaakt van uw viacoin portemonnee!"
 
 #: www/views/tab-home.html:50
 msgid "Your viacoin wallet is ready!"
-msgstr "Uw bitcoin portemonnee is gereed!"
+msgstr "Uw viacoin portemonnee is gereed!"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3598,8 +3598,8 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr "{{appName}} is afhankelijk van Bitcore Wallet Service (BWS) voor blockchain informatie, netwerk verbinding en Copayer synchronisatie. De standaard instelling wijst naar https://bws.bitpay.com (BitPay's openbare BWS instance)."
 
 #: src/js/controllers/confirm.js:408
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} wordt in mindering gebracht voor bitcoin transactiekosten."
+msgid "{{fee}} will be deducted for viacoin networking fees."
+msgstr "{{fee}} wordt in mindering gebracht voor viacoin transactiekosten."
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
