@@ -1850,7 +1850,7 @@ msgid "No access key defined"
 msgstr "授权密钥未定义"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
+msgid "No backup, no viacoin."
 msgstr "没有备份，没有比特币。"
 
 #: www/views/addressbook.html:19

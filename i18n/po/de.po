@@ -1850,7 +1850,7 @@ msgid "No access key defined"
 msgstr ""
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
+msgid "No backup, no viacoin."
 msgstr "Keine Sicherung, keine Bitcoins."
 
 #: www/views/addressbook.html:19
