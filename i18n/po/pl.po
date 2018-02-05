@@ -1500,7 +1500,7 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Jeśli opcja jest włączona, portfele będą również starać się wydawać niepotwierdzone środki. Może to prowadzić do opóźnień transakcji."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
+msgid "If this device is replaced or this app is deleted, neither you nor the developers can recover your funds without a backup."
 msgstr "Jeśli to urządzenie zostanie wymienione lub jeśli aplikacja zostanie usunięta, ani ty, ani BitPay nie będzie mógł odzyskać środków bez kopii zapasowej."
 
 #: www/views/feedback/complete.html:23

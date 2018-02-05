@@ -1502,7 +1502,7 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "有効にした場合、ウォレットは未承認ビットコインも送金時の候補に含めます。これを有効にした場合、承認に時間がかかることがあります。"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
+msgid "If this device is replaced or this app is deleted, neither you nor the developers can recover your funds without a backup."
 msgstr "この端末の機種変更をしたり、アプリを削除したりした場合、端末のバックアップを取っていてもビットコインは復元されません。BitPayは復元フレーズを知らないため、お金を失ったことになります。なので、絶対に復元フレーズを書き留めて安全な場所に保管して下さい。"
 
 #: www/views/feedback/complete.html:23
