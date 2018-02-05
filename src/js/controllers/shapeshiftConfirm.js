@@ -141,13 +141,13 @@ angular.module('copayApp.controllers').controller('shapeshiftConfirmController',
   };
 
   var getLegacyAddressFormat = function(addr, coin) {
-    if (coin == 'btc') return addr;
+    if (coin == 'via') return addr;
     var a = bitcoreCash.Address(addr).toObject();
     return bitcore.Address.fromObject(a).toString();
   };
 
   var getNewAddressFormat = function(addr, coin) {
-    if (coin == 'btc') return addr;
+    if (coin == 'via') return addr;
     var a = bitcore.Address(addr).toObject();
     return bitcoreCash.Address.fromObject(a).toString();
   };

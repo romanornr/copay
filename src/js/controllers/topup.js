@@ -4,7 +4,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
   var FEE_TOO_HIGH_LIMIT_PER = 15;
   $scope.isCordova = platformInfo.isCordova;
-  var coin = 'btc';
+  var coin = 'via';
   var cardId;
   var useSendMax;
   var amount;

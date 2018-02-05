@@ -34,7 +34,7 @@ angular.module('copayApp.controllers').controller('preferencesCashController',
 
     var updateAllWallets = function() {
       var walletsBTC = profileService.getWallets({
-        coin: 'btc',
+        coin: 'via',
         onlyComplete: true,
         network: 'livenet'
       });

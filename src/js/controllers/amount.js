@@ -31,14 +31,14 @@ angular.module('copayApp.controllers').controller('amountController', function (
       availableUnits = [];
 
       var hasBTCWallets = profileService.getWallets({
-        coin: 'btc'
+        coin: 'via'
       }).length;
 
       if (hasBTCWallets) {
         availableUnits.push({
-          name: 'Bitcoin',
-          id: 'btc',
-          shortName: 'BTC',
+          name: 'Viacoin',
+          id: 'via',
+          shortName: 'VIA',
         });
       }
 

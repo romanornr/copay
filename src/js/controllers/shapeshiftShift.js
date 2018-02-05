@@ -3,7 +3,7 @@
 angular.module('copayApp.controllers').controller('shapeshiftShiftController',
   function($scope, $ionicHistory, $timeout, $log, $state, profileService, popupService, lodash, shapeshiftService, gettextCatalog, externalLinkService) {
 
-    var defaultCoin = 'btc';
+    var defaultCoin = 'via';
     var walletsBtc = [];
     var walletsBch = [];
 
@@ -23,7 +23,7 @@ angular.module('copayApp.controllers').controller('shapeshiftShiftController',
     };
 
     var showToWallets = function() {
-      $scope.toWallets = $scope.fromWallet.coin == 'btc' ? walletsBch : walletsBtc;
+      $scope.toWallets = $scope.fromWallet.coin == 'via' ? walletsBch : walletsBtc;
       $scope.onToWalletSelect($scope.toWallets[0]);
 
       var pair = $scope.fromWallet.coin + '_' + $scope.toWallet.coin;
@@ -52,7 +52,7 @@ angular.module('copayApp.controllers').controller('shapeshiftShiftController',
       walletsBtc = profileService.getWallets({
         onlyComplete: true,
         network: $scope.network,
-        coin: 'btc'
+        coin: 'via'
       });
 
       walletsBch = profileService.getWallets({

@@ -98,7 +98,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
     if (cashAddress) {
       return 'bch';
     }
-    return 'btc';
+    return 'via';
   };
 
   var updateContactsList = function(cb) {

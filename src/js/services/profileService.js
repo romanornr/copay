@@ -704,7 +704,7 @@ angular.module('copayApp.services')
       opts.m = 1;
       opts.n = 1;
       opts.networkName = 'livenet';
-      opts.coin = 'btc';
+      opts.coin = 'via';
       root.createWallet(opts, cb);
     };
 
