@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('buyCoinbaseController', function($scope, $log, $state, $timeout, $ionicHistory, $ionicScrollDelegate, $ionicConfig, lodash, coinbaseService, popupService, profileService, ongoingProcess, walletService, txFormatService, externalLinkService) {
 
-  var coin = 'btc';
+  var coin = 'via';
   var amount;
   var currency;
 

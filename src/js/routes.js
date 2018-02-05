@@ -331,7 +331,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc'
+          coin: 'via'
         }
       })
       .state('tabs.add.join', {
@@ -939,7 +939,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc',
+          coin: 'via',
         }
       })
       .state('tabs.buyandsell.glidera.amount', {
@@ -995,7 +995,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc',
+          coin: 'via',
         }
       })
       .state('tabs.preferences.coinbase', {
@@ -1084,7 +1084,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           nextStep: 'tabs.giftcards.mercadoLibre.buy',
           currency: 'BRL',
-          coin: 'btc',
+          coin: 'via',
           fixedUnit: 1,
         }
       })
@@ -1136,7 +1136,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           nextStep: 'tabs.giftcards.amazon.buy',
           currency: 'USD',
-          coin: 'btc',
+          coin: 'via',
           fixedUnit: true,
         }
       })
@@ -1177,7 +1177,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           id: null,
           currency: 'USD',
-          coin: 'btc',
+          coin: 'via',
           useSendMax: null
         }
       })

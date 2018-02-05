@@ -34,7 +34,7 @@ angular.module('copayApp.directives')
             $timeout(function() {
               $state.transitionTo('tabs.send.amount', {
                 toAddress: bitcoinAddress,
-                coin: coin || 'btc',
+                coin: coin || 'via',
               });
             }, 50);
           });

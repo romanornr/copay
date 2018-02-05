@@ -70,7 +70,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
     }
     // data extensions for Payment Protocol with non-backwards-compatible request
     if ((/^bitcoin(cash)?:\?r=[\w+]/).exec(data)) {
-      var coin = 'btc';
+      var coin = 'via';
       if (data.indexOf('bitcoincash') === 0) coin = 'bch';
 
       data = decodeURIComponent(data.replace(/bitcoin(cash)?:\?r=/, ''));
@@ -89,7 +89,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
     // Bitcoin  URL
     if (bitcore.URI.isValid(data)) {
 
-        var coin = 'btc';
+        var coin = 'via';
         var parsed = new bitcore.URI(data);
 
         var addr = parsed.address ? parsed.address.toString() : '';
@@ -205,7 +205,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         root.showMenu({
           data: data,
           type: 'bitcoinAddress',
-          coin: 'btc',
+          coin: 'via',
         });
       } else {
         goToAmountPage(data);

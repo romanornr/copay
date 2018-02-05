@@ -21,7 +21,7 @@ angular.module('copayApp.directives')
           if (!scope.wallets) return;
           for(var i = 0; i <= scope.wallets.length; i++) {
             if (scope.wallets[i]) {
-              if (scope.wallets[i].coin == 'btc') scope.walletsBtc.push(scope.wallets[i]);
+              if (scope.wallets[i].coin == 'via') scope.walletsBtc.push(scope.wallets[i]);
               else scope.walletsBch.push(scope.wallets[i]);
             }
           }
