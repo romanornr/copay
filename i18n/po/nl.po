@@ -1931,7 +1931,7 @@ msgid "Not enough funds for fee"
 msgstr "Onvoldoende saldo voor transactiekosten"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even the devs can access it."
 msgstr "Zelfs BitPay heeft geen toegang."
 
 #: src/js/controllers/paperWallet.js:47

@@ -1931,7 +1931,7 @@ msgid "Not enough funds for fee"
 msgstr "No hay suficientes fondos para la comisión"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even the devs can access it."
 msgstr "Ni siquiera BitPay puede acceder a ellos."
 
 #: src/js/controllers/paperWallet.js:47

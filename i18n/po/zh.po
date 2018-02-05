@@ -1931,7 +1931,7 @@ msgid "Not enough funds for fee"
 msgstr "费用的资金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "Not even the devs can access it."
 msgstr "甚至没有 BitPay 可以访问它。"
 
 #: src/js/controllers/paperWallet.js:47
