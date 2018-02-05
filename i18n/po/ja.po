@@ -1478,7 +1478,7 @@ msgid "I understand"
 msgstr "承知しました"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my viacoin can only be recovered with the backup phrase."
 msgstr "このアプリが別の端末に移動されたり、削除されたりした場合に、含まれたビットコインが復元フレーズからのみ復元ができることを理解しています。"
 
 #: www/views/onboarding/disclaimer.html:18

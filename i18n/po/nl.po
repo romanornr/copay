@@ -1476,7 +1476,7 @@ msgid "I understand"
 msgstr "Ik begrijp het"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my viacoin can only be recovered with the backup phrase."
 msgstr "Ik begrijp dat als deze app wordt verwijderd of verplaatst naar een ander apparaat, ik mijn bitcoin alleen kan herstellen met de herstel zin."
 
 #: www/views/onboarding/disclaimer.html:18
