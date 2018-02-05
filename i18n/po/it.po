@@ -3465,7 +3465,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "Potete vedere gli ultimi sviluppi e contribuire a questa applicazione open source andando al nostro progetto su GitHub."
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
+msgid "You can spend viacoin at millions of websites and stores worldwide."
 msgstr "Si può spendere bitcoin in milioni di siti web e negozi in tutto il mondo."
 
 #: www/views/backup.html:15
