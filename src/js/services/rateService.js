@@ -45,7 +45,7 @@ RateService.prototype.updateRates = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://bitpay.com/api/rates';
+  var rateServiceUrl = 'https://rates.viacoin.org/api/rates';
   var bchRateServiceUrl = 'https://bitpay.com/api/rates/bch';
 
 
