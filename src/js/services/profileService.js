@@ -1,6 +1,6 @@
 'use strict';
 angular.module('copayApp.services')
-  .factory('profileService', function profileServiceFactory($rootScope, $timeout, $filter, $log, $state, sjcl, lodash, storageService, bwcService, configService, gettextCatalog, bwcError, uxLanguage, platformInfo, txFormatService, appConfigService) {
+  .factory('profileService', function profileServiceFactory($rootScope, $timeout, $filter, $log, $state, sjcl, lodash, storageService, bwcService, configService, gettextCatalog, bwcError, uxLanguage, platformInfo, txFormatService, appConfigService, popupService, ongoingProcess) {
 
 
     var isChromeApp = platformInfo.isChromeApp;
@@ -48,7 +48,7 @@ angular.module('copayApp.services')
 
     function _requiresBackup(wallet) {
       if (wallet.isPrivKeyExternal()) return false;
-      if (!wallet.credentials.mnemonic) return false;
+      if (!wallet.credentials.mnemonic && !wallet.credentials.mnemonicEncrypted) return false;
       if (wallet.credentials.network == 'testnet') return false;
 
       return true;
@@ -505,45 +505,111 @@ angular.module('copayApp.services')
       });
     }
 
+    // An alert dialog
+    var askPassword = function(name, title, cb) {
+      var opts = {
+        inputType: 'password',
+        forceHTMLPrompt: true,
+        class: 'text-warn'
+      };
+      popupService.showPrompt(title, name, opts, function(res) {
+        if (!res) return cb();
+        if (res) return cb(res)
+      });
+    };
+
+    var showWarningNoEncrypt = function(cb) {
+      var title = gettextCatalog.getString('Are you sure?');
+      var msg = gettextCatalog.getString('Without encryption, a thief or another application on this device may be able to access your funds.');
+      var no = gettextCatalog.getString('Go Back');
+      var yes = gettextCatalog.getString('I\'m sure');
+      popupService.showConfirm(title, msg, yes, no, function(res) {
+        return cb(res);
+      });
+    };
+
+    var askToEncryptWallet = function(wallet, cb) {
+      var title = gettextCatalog.getString('Would you like to protect this wallet with a password?');
+      var message = gettextCatalog.getString('Encryption can protect your funds if this device is stolen or compromised by malicious software.');
+      var okText = gettextCatalog.getString('Yes');
+      var cancelText = gettextCatalog.getString('No');
+      popupService.showConfirm(title, message, okText, cancelText, function(res) {
+        if (!res) return showWarningNoEncrypt(function() {
+          if (res) return cb()
+          return encryptWallet(wallet, cb);
+        });
+        return encryptWallet(wallet, cb);
+      });
+    }
+
+    var encryptWallet = function(wallet, cb) {
+
+      var title = gettextCatalog.getString('Enter a password to encrypt your wallet');
+      var warnMsg = gettextCatalog.getString('This password is only for this device, and it cannot be recovered. To avoid losing funds, write your password down.');
+      askPassword(warnMsg, title, function(password) {
+        if (!password) {
+          showWarningNoEncrypt(function(res) {
+            if (res) return cb()
+            return encryptWallet(wallet, cb);
+          });
+        } else {
+          title = gettextCatalog.getString('Enter your password again to confirm');
+          askPassword(warnMsg, title, function(password2) {
+            if (!password2 || password != password2)
+              return encryptWallet(wallet, cb);
+
+            wallet.encryptPrivateKey(password);
+            return cb();
+          });
+        }
+      });
+    };
+
     // Adds and bind a new client to the profile
     var addAndBindWalletClient = function(client, opts, cb) {
       if (!client || !client.credentials)
         return cb(gettextCatalog.getString('Could not access wallet'));
 
-      var walletId = client.credentials.walletId
+      // Encrypt wallet
+      ongoingProcess.pause();
+      askToEncryptWallet(client, function() {
+        ongoingProcess.resume();
 
-      if (!root.profile.addWallet(JSON.parse(client.export())))
-        return cb(gettextCatalog.getString("Wallet already in {{appName}}", {
-          appName: appConfigService.nameCase
-        }));
+        var walletId = client.credentials.walletId
+
+        if (!root.profile.addWallet(JSON.parse(client.export())))
+          return cb(gettextCatalog.getString("Wallet already in {{appName}}", {
+            appName: appConfigService.nameCase
+          }));
 
 
-      var skipKeyValidation = shouldSkipValidation(walletId);
-      if (!skipKeyValidation)
-        root.runValidation(client);
+        var skipKeyValidation = shouldSkipValidation(walletId);
+        if (!skipKeyValidation)
+          root.runValidation(client);
 
-      root.bindWalletClient(client);
+        root.bindWalletClient(client);
 
-      var saveBwsUrl = function(cb) {
-        var defaults = configService.getDefaults();
-        var bwsFor = {};
-        bwsFor[walletId] = opts.bwsurl || defaults.bws.url;
+        var saveBwsUrl = function(cb) {
+          var defaults = configService.getDefaults();
+          var bwsFor = {};
+          bwsFor[walletId] = opts.bwsurl || defaults.bws.url;
 
-        // Dont save the default
-        if (bwsFor[walletId] == defaults.bws.url)
-          return cb();
+          // Dont save the default
+          if (bwsFor[walletId] == defaults.bws.url)
+            return cb();
 
-        configService.set({
-          bwsFor: bwsFor,
-        }, function(err) {
-          if (err) $log.warn(err);
-          return cb();
-        });
-      };
+          configService.set({
+            bwsFor: bwsFor,
+          }, function(err) {
+            if (err) $log.warn(err);
+            return cb();
+          });
+        };
 
-      saveBwsUrl(function() {
-        storageService.storeProfile(root.profile, function(err) {
-          return cb(err, client);
+        saveBwsUrl(function() {
+          storageService.storeProfile(root.profile, function(err) {
+            return cb(err, client);
+          });
         });
       });
     };
