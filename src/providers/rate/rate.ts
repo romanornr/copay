@@ -14,7 +14,7 @@ export class RateProvider {
   private SAT_TO_BTC: number;
   private BTC_TO_SAT: number;
 
-  private rateServiceUrl = 'https://bitpay.com/api/rates';
+  private rateServiceUrl = 'https://rates.viacoin.org/api/rates';
   private bchRateServiceUrl = 'https://bitpay.com/api/rates/bch';
 
   constructor(
