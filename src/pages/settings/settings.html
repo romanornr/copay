@@ -59,7 +59,7 @@
     <button ion-item (click)="openFeePolicyPage()">
       <ion-icon name="ios-git-network-outline" item-start></ion-icon>
       <ion-label>
-        {{'Bitcoin network fee policy' | translate}}
+        {{'Viacoin network fee policy' | translate}}
       </ion-label>
     </button>
 
@@ -74,7 +74,7 @@
       </ion-note>
     </button>
 
-    <ion-item-divider *ngIf="walletsBtc.length">{{'Bitcoin Wallets' | translate}}</ion-item-divider>
+    <ion-item-divider *ngIf="walletsBtc.length">{{'Viacoin Wallets' | translate}}</ion-item-divider>
 
     <button ion-item *ngFor="let wallet of walletsBtc" (click)="openWalletSettingsPage(wallet.credentials.walletId)">
       <ion-icon item-start>

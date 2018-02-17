@@ -104,7 +104,7 @@ msgid "Anyone with your backup phrase can access or spend your bitcoin."
 msgstr ""
 
 msgid ""
-"Approximate Bitcoin network fee to transfer wallet's balance (with normal "
+"Approximate Viacoin network fee to transfer wallet's balance (with normal "
 "priority)"
 msgstr ""
 
@@ -157,48 +157,48 @@ msgid "Balance Hidden"
 msgstr ""
 
 msgid ""
-"Bitcoin (BTC) miner fees are high due to record demand for limited space on "
+"Viacoin (BTC) miner fees are high due to record demand for limited space on "
 "the\n"
-"      Bitcoin network. BitPay does not receive and does not control bitcoin "
+"      Viacoin network. BitPay does not receive and does not control bitcoin "
 "miner fees."
 msgstr ""
 
-msgid "Bitcoin Address"
+msgid "Viacoin Address"
 msgstr ""
 
 msgid "Bitcoin Cash Wallets"
 msgstr ""
 
-msgid "Bitcoin Network Fee Policy"
+msgid "Viacoin Network Fee Policy"
 msgstr ""
 
-msgid "Bitcoin Wallets"
+msgid "Viacoin Wallets"
 msgstr ""
 
 msgid "Bitcoin cash Payment"
 msgstr ""
 
-msgid "Bitcoin is a currency."
+msgid "Viacoin is a currency."
 msgstr ""
 
 msgid ""
-"Bitcoin is different &ndash; it cannot be safely held with a bank or web "
+"Viacoin is different &ndash; it cannot be safely held with a bank or web "
 "service."
 msgstr ""
 
-msgid "Bitcoin is secure,"
+msgid "Viacoin is secure,"
 msgstr ""
 
-msgid "Bitcoin miner fee"
+msgid "Viacoin miner fee"
 msgstr ""
 
-msgid "Bitcoin miner fees unusually high"
+msgid "Viacoin miner fees unusually high"
 msgstr ""
 
-msgid "Bitcoin network fee policy"
+msgid "Viacoin network fee policy"
 msgstr ""
 
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Viacoin transactions include a fee collected by miners on the network."
 msgstr ""
 
 msgid "Broadcast Payment"
@@ -219,7 +219,7 @@ msgstr ""
 msgid "Buy a Gift Card"
 msgstr ""
 
-msgid "Buying Bitcoin..."
+msgid "Buying Viacoin..."
 msgstr ""
 
 msgid "Buying Gift Card..."
@@ -1302,7 +1302,7 @@ msgstr ""
 msgid "Select a wallet"
 msgstr ""
 
-msgid "Selling Bitcoin..."
+msgid "Selling Viacoin..."
 msgstr ""
 
 msgid "Send"
@@ -1430,7 +1430,7 @@ msgstr ""
 msgid "Spending Password needed"
 msgstr ""
 
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Viacoin network fees"
 msgstr ""
 
 msgid "Still pending"
@@ -1549,8 +1549,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This transaction amount is too small compared to current Bitcoin network "
-"fees. Spending these funds will need a Bitcoin network\n"
+"This transaction amount is too small compared to current Viacoin network "
+"fees. Spending these funds will need a Viacoin network\n"
 "        fee cost comparable to the funds itself."
 msgstr ""
 
@@ -1610,7 +1610,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Viacoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -1921,7 +1921,7 @@ msgstr ""
 
 msgid ""
 "Your wallet keys will be stored in plan text in this device, if an other "
-"app access the store it will be able to access your Bitcoin"
+"app access the store it will be able to access your Viacoin"
 msgstr ""
 
 msgid "[Balance Hidden]"
