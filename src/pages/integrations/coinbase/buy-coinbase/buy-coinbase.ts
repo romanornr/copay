@@ -52,7 +52,7 @@ export class BuyCoinbasePage {
     private profileProvider: ProfileProvider,
     private modalCtrl: ModalController
   ) {
-    this.coin = 'btc';
+    this.coin = 'via';
     this.isFiat = this.navParams.data.currency != 'BTC' ? true : false;
     this.amount = this.navParams.data.amount;
     this.currency = this.navParams.data.currency;
@@ -300,7 +300,7 @@ export class BuyCoinbasePage {
     modal.onDidDismiss(() => {
       this.navCtrl.remove(3, 1);
       this.navCtrl.pop();
-      this.navCtrl.push(CoinbasePage, { coin: 'btc' });
+      this.navCtrl.push(CoinbasePage, { coin: 'via' });
     });
   }
 

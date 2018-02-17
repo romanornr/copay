@@ -75,7 +75,7 @@ export class BitPayCardTopUpPage {
     private platformProvider: PlatformProvider,
     private feeProvider: FeeProvider
   ) {
-    this.coin = 'btc';
+    this.coin = 'via';
     this.configWallet = this.configProvider.get().wallet;
     this.isCordova = this.platformProvider.isCordova;
   }

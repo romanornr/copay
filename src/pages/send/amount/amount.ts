@@ -152,14 +152,14 @@ export class AmountPage {
     this.availableUnits = [];
 
     let hasBTCWallets = this.profileProvider.getWallets({
-      coin: 'btc'
+      coin: 'via'
     }).length;
 
     if (hasBTCWallets) {
       this.availableUnits.push({
         name: 'Bitcoin',
-        id: 'btc',
-        shortName: 'BTC',
+        id: 'via',
+        shortName: 'VIA',
       });
     }
 

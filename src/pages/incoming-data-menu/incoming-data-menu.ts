@@ -32,7 +32,7 @@ export class IncomingDataMenuPage {
 
   public close(redirTo: string, value: string) {
     if (redirTo == 'AmountPage') {
-      let coin = this.coin ? this.coin : 'btc';
+      let coin = this.coin ? this.coin : 'via';
       this.viewCtrl.dismiss({ redirTo: redirTo, value: value, coin: coin });
       return;
     }

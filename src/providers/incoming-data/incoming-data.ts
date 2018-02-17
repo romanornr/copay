@@ -70,7 +70,7 @@ export class IncomingDataProvider {
     // Bitcoin  URL
     if (this.bwcProvider.getBitcore().URI.isValid(data)) {
       this.logger.debug('Handling Bitcoin URI');
-      coin = 'btc';
+      coin = 'via';
       parsed = this.bwcProvider.getBitcore().URI(data);
       addr = parsed.address ? parsed.address.toString() : '';
       message = parsed.message;
@@ -162,7 +162,7 @@ export class IncomingDataProvider {
 
       this.payproProvider.getPayProDetails(data).then((details) => {
         //TODO review
-        this.handlePayPro(details, 'btc');
+        this.handlePayPro(details, 'via');
         return true;
       }).catch(() => {
         this.showMenu({
@@ -178,10 +178,10 @@ export class IncomingDataProvider {
         this.showMenu({
           data: data,
           type: 'bitcoinAddress',
-          coin: 'btc'
+          coin: 'via'
         });
       } else {
-        let coin = 'btc';
+        let coin = 'via';
         this.goToAmountPage(data, coin);
       }
     } else if (this.bwcProvider.getBitcoreCash().Address.isValid(data, 'livenet')) {

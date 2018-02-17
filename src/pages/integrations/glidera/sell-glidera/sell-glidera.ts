@@ -50,7 +50,7 @@ export class SellGlideraPage {
     private events: Events,
     private modalCtrl: ModalController
   ) {
-    this.coin = 'btc';
+    this.coin = 'via';
     this.isCordova = this.platformProvider.isCordova;
   }
 

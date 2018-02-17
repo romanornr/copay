@@ -36,7 +36,7 @@ export class TourPage {
     this.rateProvider.whenRatesAvailable().then(() => {
       let btcAmount = 1;
       this.localCurrencySymbol = '$'
-      this.localCurrencyPerBtc = this.txFormatProvider.formatAlternativeStr('btc', btcAmount * 1e8);
+      this.localCurrencyPerBtc = this.txFormatProvider.formatAlternativeStr('via', btcAmount * 1e8);
     });
   }
 

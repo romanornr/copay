@@ -179,7 +179,7 @@ export class HomePage {
 
   private setWallets = _.debounce(() => {
     this.wallets = this.profileProvider.getWallets();
-    this.walletsBtc = this.profileProvider.getWallets({ coin: 'btc' });
+    this.walletsBtc = this.profileProvider.getWallets({ coin: 'via' });
     this.walletsBch = this.profileProvider.getWallets({ coin: 'bch' });
     this.updateAllWallets();
   }, 10000, {

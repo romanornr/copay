@@ -210,7 +210,7 @@ export class TxFormatProvider {
     var alternativeIsoCode = settings.alternativeIsoCode;
 
     // If fiat currency
-    if (currency != 'BCH' && currency != 'BTC' && currency != 'sat') {
+    if (currency != 'BCH' && currency != 'VIA' && currency != 'sat') {
       amountUnitStr = this.filter.formatFiatAmount(amount) + ' ' + currency;
       amountSat = Number(this.rate.fromFiat(amount, currency, coin).toFixed(0));
     } else if (currency == 'sat') {

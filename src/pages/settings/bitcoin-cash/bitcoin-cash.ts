@@ -43,7 +43,7 @@ export class BitcoinCashPage {
 		private translate: TranslateService
 	) {
 		this.walletsBTC = this.profileProvider.getWallets({
-			coin: 'btc',
+			coin: 'via',
 			onlyComplete: true,
 			network: 'livenet'
 		});

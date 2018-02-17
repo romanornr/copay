@@ -69,7 +69,7 @@ export class BuyAmazonPage {
     private translate: TranslateService
   ) {
     this.FEE_TOO_HIGH_LIMIT_PER = 15;
-    this.coin = 'btc';
+    this.coin = 'via';
     this.configWallet = this.configProvider.get().wallet;
     this.amazonGiftCard = null;
   }

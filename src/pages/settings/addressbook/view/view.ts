@@ -44,7 +44,7 @@ export class AddressbookViewPage {
     if (cashAddress) {
       this.coin = 'bch';
     } else {
-      this.coin = 'btc';
+      this.coin = 'via';
     }
   }
 
