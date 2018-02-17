@@ -433,7 +433,7 @@ export class ConfirmPage {
 
   private showSendMaxWarning(wallet: any, sendMaxInfo: any): void {
     let fee = (sendMaxInfo.fee / 1e8);
-    let msg = fee + " " + this.tx.coin.toUpperCase() + " will be deducted for bitcoin networking fees.";
+    let msg = fee + " " + this.tx.coin.toUpperCase() + " will be deducted for viacoin networking fees.";
     let warningMsg = this.verifyExcludedUtxos(wallet, sendMaxInfo);
 
     if (!_.isEmpty(warningMsg))
@@ -538,7 +538,7 @@ export class ConfirmPage {
     if (!tx || !wallet) return;
 
     if (this.paymentExpired) {
-      this.popupProvider.ionicAlert(null, this.translate.instant('This bitcoin payment request has expired.'));
+      this.popupProvider.ionicAlert(null, this.translate.instant('This viacoin payment request has expired.'));
       return;
     }
 

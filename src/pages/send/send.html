@@ -7,7 +7,7 @@
 </ion-header>
 <ion-content no-bounce>
   <div *ngIf="hasBtcWallets || hasBchWallets">
-    <ion-searchbar placeholder="Search or enter bitcoin address" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-searchbar>
+    <ion-searchbar placeholder="Search or enter viacoin address" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-searchbar>
 
     <div *ngIf="filteredContactsList && filteredContactsList[0]">
       <ion-item-divider>
@@ -70,6 +70,6 @@
     <ion-item-divider></ion-item-divider>
   </div>
   <div *ngIf="!hasBtcWallets && !hasBchWallets" class="no-wallet-message">
-    <span translate>To get started, you'll need to create a bitcoin wallet and get some bitcoin.</span>
+    <span translate>To get started, you'll need to create a viacoin wallet and get some viacoin.</span>
   </div>
 </ion-content>
