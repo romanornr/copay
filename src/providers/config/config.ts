@@ -178,7 +178,7 @@ const configDefault: Config = {
   },
 
   rates: {
-    url: 'https://insight.bitpay.com:443/api/rates'
+    url: 'https://explorer.viacoin.org:443/api/rates'
   },
 
   release: {
@@ -201,7 +201,7 @@ const configDefault: Config = {
   },
 
   blockExplorerUrl: {
-    btc: 'insight.bitpay.com',
+    btc: 'explorer.viacoin.org',
     bch: 'bch-insight.bitpay.com'
   }
 };
